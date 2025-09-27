@@ -1,0 +1,85 @@
+columnSuffix: null
+handle: labelWithIcon
+instructions: null
+name: 'Label met icon'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 5b427892-b03c-4bd0-9c89-c13f9412e03e
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Inhoud
+                    1:
+                      - uid
+                      - 82c5d4a9-97ca-42bc-a1d7-19cd72534483
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-27T10:13:54+00:00'
+                            11:
+                              - uid
+                              - b3e4a724-2599-456a-8399-672590668a2f
+                            14:
+                              - fieldUid
+                              - 1f7837f0-08ce-4fab-af91-bc0fce95db8b # Icoon
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - true
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-27T10:13:54+00:00'
+                            11:
+                              - uid
+                              - ed94c5d3-752a-4454-ac67-5ab8d781c9db
+                            14:
+                              - fieldUid
+                              - 7ab1388e-3ae0-42e8-9e3c-7f410756a6a5 # Link
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

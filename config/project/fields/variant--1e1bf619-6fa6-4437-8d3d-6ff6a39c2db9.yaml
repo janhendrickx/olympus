@@ -1,0 +1,45 @@
+columnSuffix: null
+handle: variant
+instructions: 'Selecteer hier de lichte of donkere variant'
+name: Variant
+searchable: false
+settings:
+  customOptions: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Licht
+        -
+          - value
+          - cta-light
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Donker
+        -
+          - value
+          - cta-dark
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

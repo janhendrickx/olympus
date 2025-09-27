@@ -1,0 +1,9 @@
+baseUrl: $OLYMPUS_EN_URL/en
+enabled: '1'
+handle: olympusEn
+hasUrls: true
+language: en
+name: 'Olympus EN'
+primary: false
+siteGroup: 7e871822-703c-4aca-9a68-8a32db079030 # Olympus
+sortOrder: 2

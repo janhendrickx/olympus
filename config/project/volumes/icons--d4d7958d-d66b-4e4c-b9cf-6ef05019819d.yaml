@@ -1,0 +1,51 @@
+altTranslationKeyFormat: null
+altTranslationMethod: none
+fieldLayouts:
+  a5e10443-4abd-4590-8e6f-0f2ed694b007:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-27T09:05:41+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 39bd1684-6f98-4647-bf84-371922d5e983
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 85a4a563-dfc4-4a73-b216-883bc71c7adf
+        userCondition: null
+fs: $DEPLOY_NAME
+handle: icons
+name: Iconen
+sortOrder: 2
+subpath: $CRAFT_WEB_ROOT/icons
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

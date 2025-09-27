@@ -1,22 +1,166 @@
-dateModified: 1758899368
+dateModified: 1758991195
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - status
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: Navigatie
+      key: 'heading:2fd35141-09d9-4a0f-ae4d-b07c66a42a66'
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:9421c7e5-6a93-47df-af87-adb403c189cf' # Navigatie
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: "Pagina's"
+      key: 'heading:64e99566-660a-465e-81fd-168065a5139c'
+      type: heading
+    -
+      key: 'section:456cfa11-0eda-42f9-889e-c0ddd4d5b872' # Content pagina's
+      type: native
+    -
+      heading: Modules
+      key: 'heading:9df1799e-bcc0-4e7e-ac8a-956353a318b6'
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:aac3fa50-b907-4272-b3cd-3f047b99375f' # Cases
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      key: 'section:f88e8152-8df3-46e5-90aa-f132ff363c1a' # Call to actions
+      type: native
+    -
+      key: 'section:5c4a757f-1eea-4248-8757-3b1f4573c5b2' # Klantenervaringen
+      type: native
+    -
+      heading: E-books
+      key: 'heading:6f83be6e-3250-4d89-b6d4-3b66e7665d10'
+      type: heading
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:794337dc-7ad8-48ef-abc7-39513c7453d0' # E-books
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:ed7e440c-d5f3-4e42-a923-a95c539439d4' # Categorieën
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
+      type: native
 email:
   fromEmail: admin@janhendrickx.be
   fromName: Olympus
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  local:
+    hasUrls: true
+    name: Local
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: $PRIMARY_SITE_URL/uploads
 meta:
   __names__:
+    0b2346f1-7a54-4b8f-b1b1-a4f189c53229: Content # Content
+    1d9cc38e-5899-47c4-9017-c407f5120f2c: Link # Link
+    1e1bf619-6fa6-4437-8d3d-6ff6a39c2db9: Variant # Variant
+    1f7837f0-08ce-4fab-af91-bc0fce95db8b: Icoon # Icoon
     02d45b6e-2da1-402a-b68d-08bd41806ef2: Olympus # Olympus
+    5c4a757f-1eea-4248-8757-3b1f4573c5b2: Klantenervaringen # Klantenervaringen
+    6c31802d-fa2a-4d5c-86e3-a1d397bbc1d6: Pagina # Pagina
+    7ab1388e-3ae0-42e8-9e3c-7f410756a6a5: Link # Link
+    07afced0-6aed-41d0-bb14-db239d8d2293: Leestijd # Leestijd
     7e871822-703c-4aca-9a68-8a32db079030: Olympus # Olympus
+    8b942b91-d2dc-4596-b45b-d8667f578938: Titel # Titel
+    10f6121b-68bb-41ab-b18c-e1b4258fe36a: Video # Video
+    11b249e1-d9a7-4d9d-8905-9640fe34a5b3: Navigatie # Navigatie
+    42a254dc-5329-47e6-9278-c5337227e26b: 'Call to action' # Call to action
+    43ab3c7c-5164-44f2-a49b-2398d5e4587d: Standaard # Standaard
+    70d121eb-16ae-4cca-bf18-f0674a613c93: 'Onderste items' # Onderste items
+    76b5189a-02d7-47a4-87b8-108f7e88d0a0: Afbeelding # Afbeelding
+    082feca9-832b-4d09-a9dc-756a2bbdc1c6: 'Gestyleerde titel' # Gestyleerde titel
+    84eef92e-dac4-4f7a-88d8-7e53997d9673: E-book # E-book
+    456cfa11-0eda-42f9-889e-c0ddd4d5b872: "Content pagina's" # Content pagina's
+    565f03de-8265-4182-9266-de1269139e81: 'Olympus EN' # Olympus EN
+    2636fd99-af92-43cd-a235-6f475c46a4f8: Case # Case
+    4416e3f7-df0f-43c9-88f2-3103f102f743: Media # Media
+    4721c417-91f0-4bcb-b630-f5600410e041: Dropdown # Dropdown
+    5935ed7a-cca4-4e3e-9309-1751e05f9cb9: Simple # Simple
+    9421c7e5-6a93-47df-af87-adb403c189cf: Navigatie # Navigatie
+    9664a544-faa7-495b-a078-abe6ffbc7468: Tekst # Tekst
+    599631fe-c456-4837-bf32-78bc741e54c4: 'Call to action' # Call to action
+    794337dc-7ad8-48ef-abc7-39513c7453d0: E-books # E-books
+    a9c40264-851c-47ff-ada9-c44c98cade51: PDFs # PDFs
+    aac3fa50-b907-4272-b3cd-3f047b99375f: Cases # Cases
+    aad4fe71-a07a-4a64-9c4a-3d1c6c6704fe: Subitem # Subitem
+    ac4cb985-b112-4e36-8463-3c1a87270c22: PDF # PDF
+    b65f44d2-fd45-47ba-a7a8-6b80123e60c4: 'Label met icon' # Label met icon
+    bf4ddf64-2493-4ac4-bfef-cc46b3c6c0d9: 'Call to action' # Call to action
+    c50ebffd-36f0-4205-980e-46ad2e36b82d: 'Onderste items' # Onderste items
+    cf44a918-b9e7-4871-976d-f35192437ce2: Quote # Quote
+    d4d7958d-d66b-4e4c-b9cf-6ef05019819d: Iconen # Iconen
+    d2346b25-9153-496d-8469-f69e0cd97f2d: Tekst # Tekst
+    da1874f5-7484-4ecf-9070-7305334a0d3f: Tekst # Tekst
+    e4e0dd3b-f5dc-4cdb-b025-c0115433a130: E-book # E-book
+    ed7e440c-d5f3-4e42-a923-a95c539439d4: Categorieën # Categorieën
+    f7ec2c46-4d11-47cc-8c0f-c07b72e806e0: Tekst # Tekst
+    f88e8152-8df3-46e5-90aa-f132ff363c1a: 'Call to actions' # Call to actions
+    fdcab074-71bd-4e72-ab58-93a5450819d7: Video # Video
+    fe7fb17b-210f-42e0-b739-ccdc490466b0: 'Basic gestylede tekst' # Basic gestylede tekst
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
   edition: solo
   live: true
   name: Olympus
+  retryDuration: null
   schemaVersion: 5.8.0.3
-  timeZone: America/Los_Angeles
-users:
-  allowPublicRegistration: false
-  defaultGroup: null
-  photoSubpath: null
-  photoVolumeUid: null
-  require2fa: false
-  requireEmailVerification: true
+  timeZone: Europe/Brussels

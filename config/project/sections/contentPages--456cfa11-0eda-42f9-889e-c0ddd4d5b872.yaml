@@ -1,0 +1,36 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 6c31802d-fa2a-4d5c-86e3-a1d397bbc1d6 # Pagina
+handle: contentPages
+maxAuthors: 1
+name: "Content pagina's"
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primaire invoer-pagina'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  02d45b6e-2da1-402a-b68d-08bd41806ef2: # Olympus
+    enabledByDefault: true
+    hasUrls: true
+    template: pages
+    uriFormat: '{parent.uri}/{slug}'
+  565f03de-8265-4182-9266-de1269139e81: # Olympus EN
+    enabledByDefault: true
+    hasUrls: true
+    template: pages
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: 2
+  uid: 0b03a2ce-52b9-4bdb-98af-ae4e9b4c8afc
+type: structure

@@ -1,7 +1,8 @@
 baseUrl: $PRIMARY_SITE_URL
+enabled: true
 handle: default
 hasUrls: true
-language: nl-be
+language: nl-BE
 name: Olympus
 primary: true
 siteGroup: 7e871822-703c-4aca-9a68-8a32db079030 # Olympus

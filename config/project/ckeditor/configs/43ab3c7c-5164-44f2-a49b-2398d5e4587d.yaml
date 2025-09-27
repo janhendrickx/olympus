@@ -1,0 +1,15 @@
+headingLevels:
+  - 2
+  - 3
+  - 4
+name: Standaard
+toolbar:
+  - heading
+  - '|'
+  - bold
+  - underline
+  - italic
+  - link
+  - '|'
+  - bulletedList
+  - numberedList

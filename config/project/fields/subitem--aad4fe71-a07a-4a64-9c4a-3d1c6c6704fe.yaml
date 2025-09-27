@@ -1,0 +1,111 @@
+columnSuffix: null
+handle: subitem
+instructions: null
+name: Subitem
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 3fd46b39-e949-4bc8-9697-74ceaee5a5a1
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Inhoud
+                    1:
+                      - uid
+                      - a0aef9e9-e819-4ffe-8dbb-77dc8bff6b7e
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-27T09:52:55+00:00'
+                            11:
+                              - uid
+                              - feffb080-46df-4143-8f71-4ea3fb153633
+                            14:
+                              - fieldUid
+                              - 1f7837f0-08ce-4fab-af91-bc0fce95db8b # Icoon
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-27T09:52:55+00:00'
+                            11:
+                              - uid
+                              - 8bceaeb1-601e-4987-a897-5c91ad2dffdd
+                            14:
+                              - fieldUid
+                              - d2346b25-9153-496d-8469-f69e0cd97f2d # Tekst
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-09-27T09:52:55+00:00'
+                            11:
+                              - uid
+                              - 385c9a83-be2a-4f58-9686-c3501f701fd8
+                            14:
+                              - fieldUid
+                              - 7ab1388e-3ae0-42e8-9e3c-7f410756a6a5 # Link
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

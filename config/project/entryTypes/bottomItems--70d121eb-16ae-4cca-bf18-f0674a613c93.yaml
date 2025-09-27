@@ -1,0 +1,70 @@
+color: null
+description: null
+fieldLayouts:
+  434c2d28-cc72-48e7-972a-6d4259e807f8:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-27T10:21:12+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 456610e4-bd54-47df-ba47-94f41128eb99
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-27T10:16:32+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b65f44d2-fd45-47ba-a7a8-6b80123e60c4 # Label met icon
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6bbb26d4-dcfd-4a63-97bc-7007c41ce056
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 3310455a-b19c-42a9-8ec6-45984d92fc20
+        userCondition: null
+handle: bottomItems
+hasTitleField: true
+icon: null
+name: 'Onderste items'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

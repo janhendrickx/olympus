@@ -1,0 +1,38 @@
+columnSuffix: null
+handle: pdf
+instructions: null
+name: PDF
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - pdf
+  branchLimit: null
+  defaultPlacement: end
+  defaultUploadLocationSource: 'volume:a9c40264-851c-47ff-ada9-c44c98cade51' # PDFs
+  defaultUploadLocationSubpath: ebooks
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: 1
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: true
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:a9c40264-851c-47ff-ada9-c44c98cade51' # PDFs
+  restrictedLocationSubpath: ebooks
+  selectionLabel: 'Voeg een PDF toe'
+  showCardsInGrid: false
+  showSearchInput: true
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:a9c40264-851c-47ff-ada9-c44c98cade51' # PDFs
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Assets

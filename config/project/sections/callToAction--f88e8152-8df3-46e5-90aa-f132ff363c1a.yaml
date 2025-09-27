@@ -1,0 +1,36 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: bf4ddf64-2493-4ac4-bfef-cc46b3c6c0d9 # Call to action
+handle: callToAction
+maxAuthors: 1
+name: 'Call to actions'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primaire invoer-pagina'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  02d45b6e-2da1-402a-b68d-08bd41806ef2: # Olympus
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+  565f03de-8265-4182-9266-de1269139e81: # Olympus EN
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 5a331ffb-c54f-42e5-968d-819fae6fe4a6
+type: structure

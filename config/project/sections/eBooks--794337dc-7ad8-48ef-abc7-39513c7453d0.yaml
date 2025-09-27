@@ -1,0 +1,33 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: e4e0dd3b-f5dc-4cdb-b025-c0115433a130 # E-book
+handle: eBooks
+maxAuthors: 1
+name: E-books
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primaire invoer-pagina'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  02d45b6e-2da1-402a-b68d-08bd41806ef2: # Olympus
+    enabledByDefault: true
+    hasUrls: true
+    template: e-books/_entry.twig
+    uriFormat: 'e-books/{slug}'
+  565f03de-8265-4182-9266-de1269139e81: # Olympus EN
+    enabledByDefault: true
+    hasUrls: true
+    template: e-books/_entry.twig
+    uriFormat: 'e-books/{slug}'
+type: channel

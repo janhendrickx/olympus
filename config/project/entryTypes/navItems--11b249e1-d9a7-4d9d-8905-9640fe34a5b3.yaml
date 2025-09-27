@@ -1,0 +1,141 @@
+color: null
+description: null
+fieldLayouts:
+  a16214e8-e7dd-4276-b159-431be0beb6db:
+    cardThumbAlignment: end
+    cardView:
+      - link
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-27T09:36:40+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a138b2ac-eb87-41a3-8c26-4b912c9340a9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-27T10:15:16+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 42afcff6-e981-4230-807a-b7154ecd2090
+            userCondition: null
+          -
+            dateAdded: '2025-09-27T09:45:15+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 24e96135-1397-4e54-9fad-f4574d77e45d
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 78679111-1970-4f03-898a-2be19af60b66
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-27T10:06:04+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 4721c417-91f0-4bcb-b630-f5600410e041 # Dropdown
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 95b5cead-08a4-4ebc-83fd-e508a2835210
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-27T10:18:40+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 1847f5d4-2982-46bf-84d6-dbeef54f4d34
+            userCondition: null
+          -
+            dateAdded: '2025-09-27T10:17:25+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c50ebffd-36f0-4205-980e-46ad2e36b82d # Onderste items
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4422fb9b-18e1-4c40-8624-d9d57544a7bf
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 50778017-6252-4b81-8493-a08ee6dca1a0
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-27T16:23:01+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 84eef92e-dac4-4f7a-88d8-7e53997d9673 # E-book
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eca827ef-694a-4792-bc52-0ee6327e9fdc
+            userCondition: null
+            warning: null
+            width: 100
+        name: E-book
+        uid: 323b50fe-9477-476e-8265-d13ecde7af7a
+        userCondition: null
+handle: navItems
+hasTitleField: true
+icon: null
+name: Navigatie
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

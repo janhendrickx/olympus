@@ -22,10 +22,12 @@ Normaal zou ik hier ook issues voor aanmaken, maar dat zou me weer te ver brenge
 1. Variabelen instellen (kleuren, typografie, ...)
 1. Volledige navigatie met CMS aan gekoppeld: 8u
 1. Header: 2u
-1. Tekstblok met achtergrondafbeelding en logo: 1u
+1. Call To Action met varianten: 1.5u
+
+   Ik heb hier gekozen om de varianten met radiobuttons te maken zodat deze nog uitbreidbaar zijn (nu zijn er maar 2, dus een lightswitch had ook gekund).
+   Het was me ook niet duidelijk of het logo 'Business & Decision' al dan niet bij de achtergrondafbeelding hoort. Ik heb nu, om tijd te besparen, ervoor gekozen om er 1 afbeelding van te maken.
 1. Tekstblok: 15m
 1. Video: 15m
-1. Call to action: 1u
 1. Klantenervaringen: 1u
 1. Nieuwsbrief (zonder functionaliteit, wordt een gewoon HTML formulier): 30m
 1. Footer: 2u

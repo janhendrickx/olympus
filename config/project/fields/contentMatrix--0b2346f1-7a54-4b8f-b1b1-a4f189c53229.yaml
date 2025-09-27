@@ -1,0 +1,45 @@
+columnSuffix: null
+handle: contentMatrix
+instructions: null
+name: Content
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - f7ec2c46-4d11-47cc-8c0f-c07b72e806e0 # Tekst
+        -
+          - group
+          - Algemeen
+    -
+      __assoc__:
+        -
+          - uid
+          - 42a254dc-5329-47e6-9278-c5337227e26b # Call to action
+        -
+          - group
+          - Algemeen
+    -
+      __assoc__:
+        -
+          - uid
+          - fdcab074-71bd-4e72-ab58-93a5450819d7 # Video
+        -
+          - group
+          - Algemeen
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

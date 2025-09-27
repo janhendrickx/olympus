@@ -1,0 +1,36 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 2636fd99-af92-43cd-a235-6f475c46a4f8 # Case
+handle: cases
+maxAuthors: 1
+name: Cases
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primaire invoer-pagina'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  02d45b6e-2da1-402a-b68d-08bd41806ef2: # Olympus
+    enabledByDefault: true
+    hasUrls: true
+    template: cases/_entry.twig
+    uriFormat: 'cases/{slug}'
+  565f03de-8265-4182-9266-de1269139e81: # Olympus EN
+    enabledByDefault: true
+    hasUrls: true
+    template: cases/_entry.twig
+    uriFormat: 'cases/{slug}'
+structure:
+  maxLevels: 1
+  uid: 8663eac3-3a18-4af6-b7ef-d05cd16e3709
+type: structure

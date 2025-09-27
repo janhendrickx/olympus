@@ -1,0 +1,60 @@
+color: null
+description: null
+fieldLayouts:
+  90232d5e-0656-4b69-907f-cbf05aeb1719:
+    cardThumbAlignment: end
+    cardView:
+      - 'layoutElement:2d361a99-04a9-4424-affe-b5d26f684804'
+      - 'layoutElement:a5a02cf3-159f-43bd-a925-4fc330e6ceaf'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-27T08:05:44+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 1e1bf619-6fa6-4437-8d3d-6ff6a39c2db9 # Variant
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2d361a99-04a9-4424-affe-b5d26f684804
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-27T08:05:44+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 599631fe-c456-4837-bf32-78bc741e54c4 # Call to action
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a5a02cf3-159f-43bd-a925-4fc330e6ceaf
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 46cece1e-b993-4bcd-9529-68bd778f9275
+        userCondition: null
+handle: cTaSelector
+hasTitleField: false
+icon: null
+name: 'Call to action'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

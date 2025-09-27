@@ -1,0 +1,127 @@
+color: null
+description: null
+fieldLayouts:
+  c15c7380-26e3-4b81-9703-75345359fbb0:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-27T08:00:37+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: 'Deze titel wordt enkel in het controlepaneel gebruikt'
+            label: Titel
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 41b78cf2-e387-4262-bac7-b1204d60e7ca
+            userCondition: null
+            warning: null
+            width: 75
+          -
+            dateAdded: '2025-09-27T07:41:38+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 07afced0-6aed-41d0-bb14-db239d8d2293 # Leestijd
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ba0bb714-a309-4337-ab90-25efbcf97d13
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2025-09-27T07:41:38+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 8b942b91-d2dc-4596-b45b-d8667f578938 # Titel
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f039778-e693-4fa1-ab8d-7b4b53367162
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-27T07:47:44+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: d2346b25-9153-496d-8469-f69e0cd97f2d # Tekst
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Intro
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a59c94f3-3b14-439f-a321-1fa05eab2879
+            userCondition: null
+            warning: null
+            width: 100
+        name: Header
+        uid: b472c0db-7d37-4cc9-82bd-1802b89b8d50
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-27T07:41:38+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 0b2346f1-7a54-4b8f-b1b1-a4f189c53229 # Content
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 01f679ab-92cd-45a3-88c7-053a6fcecc65
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: d89ab91f-e1e4-4352-a697-545ca5ed6372
+        userCondition: null
+handle: case
+hasTitleField: true
+icon: null
+name: Case
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: "{styledTitle|striptags|replace({'&amp;': '&'})}"
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
