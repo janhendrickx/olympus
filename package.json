@@ -15,6 +15,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-dart-sass": "^1.0.2",
     "gulp-postcss": "^9.0.1",
+    "gulp-sourcemaps": "^3.0.0",
     "path": "^0.12.7",
     "sass": "^1.89.1",
     "stylelint": "^16.16.0",
@@ -24,7 +25,7 @@
   "author": "Jan Hendrickx",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.6",
+    "bootstrap": "^5.3.8",
     "bs5-lightbox": "^1.8.5",
     "swiper": "^11.2.10"
   }
