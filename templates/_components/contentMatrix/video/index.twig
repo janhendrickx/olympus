@@ -1,0 +1,62 @@
+{#- ---------------------- -#}
+{#- ---------------------- -#}
+
+{#- Video embed Component -#}
+
+{#- ---------------------- -#}
+{#- ---------------------- -#}
+
+{#- ---------------- -#}
+{#- Define Variables -#}
+{#- ---------------- -#}
+{%- set videoUrl = block.videoEmbed.value ?? null -%}
+{#- --------------- -#}
+{#- Component Logic -#}
+{#- --------------- -#}
+
+{#- expects some form of YouTube or Vimeo URL -#}
+{%- macro embedIframeVideo(url) -%}
+    {%- if 'youtube' in url or 'youtu.be' in url -%}
+        {%- set ytregex1 = '/^(?:https?:\\/\\/)?(?:www\.)?(?:youtu\.be\\/|youtube\.com)(?:\\/embed\\/|\\/shorts\\/|\\/v\\/|\\/watch\\?v=||\\/watch\\\?.+&v=)/' -%}
+        {%- set ytregexTrailingSlash = '/(\\/)$/' -%}
+        {%- set ytregexTrailingVariables = '/(&+.*)/' -%}
+        {%- set youtubeid = url|replace(ytregex1, '')|replace(ytregexTrailingSlash, '')|replace(ytregexTrailingVariables, '') -%}
+        {{- tag('iframe', {
+            src: "https://www.youtube-nocookie.com/embed/#{youtubeid}?autoplay=0&origin=#{siteUrl}&rel=0&iv_load_policy=3&showinfo=0&modestbranding=1&hl=#{craft.app.language}",
+            loading: 'lazy',
+            frameborder: 0,
+            allow: 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share',
+            allowfullscreen: true
+        }) -}}
+    {%- elseif 'vimeo' in url -%}
+        {%- set vimeoregex1 = '/^(?:https?:\\/\\/)?(?:www\.|player\.)?(?:vimeo\.com\\/|vimeo\.be\\/)(?:video\\/|embed\\/|v\\/|watch\\?v=||watch\\\?.+&v=)/' -%}
+        {%- set vimeoregexTrailingSlash = '/(\\/)$/' -%}
+        {%- set vimeoregexTrailingVariables = '/(&+.*)/' -%}
+        {%- set vimeoid = url|replace(vimeoregex1, '') -%}
+        {%- set vimeoid = url|replace(vimeoregex1, '')|replace(vimeoregexTrailingSlash, '')|replace(vimeoregexTrailingVariables, '') -%}
+        {%- set options = '?title=0&byline=0&portrait=0&loop=1&dnt=1' -%}
+
+        {{- tag('iframe', {
+            src: "//player.vimeo.com/video/#{vimeoid}" ~ options,
+            loading: 'lazy',
+            frameborder: 0,
+            allow: 'autoplay; autopip; web-share',
+            allowfullscreen: true
+        }) -}}
+    {%- endif -%}
+{%- endmacro -%}
+
+{#- ----------------- -#}
+{#- Component Display -#}
+{#- ----------------- -#}
+{%- if videoUrl -%}
+<div class="block video">
+    <div class="container">
+        <div class="block-inner-padding bg-gradient-v2 p-5">
+            <div class="ratio ratio-16x9">
+                {{ _self.embedIframeVideo(videoUrl) }}
+            </div>
+        </div>
+    </div>
+</div>
+{%- endif -%}

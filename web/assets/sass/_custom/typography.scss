@@ -1,0 +1,27 @@
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    text-wrap: balance;
+}
+
+h1, 
+.h1 {
+    > strong {
+        color: $secondary;
+    }
+}
+
+/* Pretty text wrapping on paragraphs */
+p {
+    text-wrap: pretty;
+}

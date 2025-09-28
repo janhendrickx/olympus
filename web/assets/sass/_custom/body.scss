@@ -1,0 +1,9 @@
+// Setting the bg gradient on the body
+body {
+    position: relative;
+    min-height: 100vh;
+    z-index: 1;
+    background-image: url('../img/header-gradient.svg');
+    background-size: 31.5625rem;
+    background-repeat: no-repeat;
+}

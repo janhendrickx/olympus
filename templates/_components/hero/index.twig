@@ -1,0 +1,44 @@
+{% import '_macros/_format' as format %}
+
+{#- ------------------------ -#}
+{#- ------------------------ -#}
+{#-
+    Component
+    Hero
+-#}
+{#- ------------------------ -#}
+{#- ------------------------ -#}
+
+{#- ---------------- -#}
+{#- Define Variables -#}
+{#- ---------------- -#}
+{%- set title = title ?? null -%}
+{%- set text = text ??  null -%}
+
+{#- ----------------- -#}
+{#- Component Display -#}
+{#- ----------------- -#}
+
+{%- if title or text -%}
+    <section class="section hero">
+        <div class="container">
+            <div class="hero-inner py-5">
+                {%- if title -%}
+                    <span class="brow text-tertiary">{{ entry.type.name }}</span>
+                    <h1>{{- format.title(title) -}}</h1>
+                {%- endif -%}
+                <div class="hero-info text-center pt-5">
+                    <span>{{ 'Leestijd: {readtime}min'|t({ readtime: entry.readTime })|raw }}</span>
+                    <span class="ms-4">{{ 'Door: {author}, {function}'|t({ author: entry.author, function: entry.author.singleLine })|raw }}</span>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <div class="section intro">
+        {%- if text -%}
+            <div class="container">
+                <p class="fw-bold">{{ format.simple(text) }}</p>
+            </div>
+        {%- endif -%}
+    </div>
+{%- endif -%}

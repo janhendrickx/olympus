@@ -1,0 +1,19 @@
+.cta-light {
+    background-image: linear-gradient(121.34deg, #E9F8FE 0%, #A9D7F1 100%);
+}
+
+.cta-dark {
+    background-color: $primary;
+    color: $white;
+}
+
+.cta-inner {
+    margin: 0 auto;
+    padding-block: 2rem;
+    width: 82rem;
+}
+.cta-inner-content {
+    max-width: 35.5rem;
+    padding-block: 5rem;
+    padding-left: 6rem;
+}

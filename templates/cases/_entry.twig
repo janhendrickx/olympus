@@ -1,0 +1,8 @@
+{% extends '_layouts/layout' %}
+{% set title = title ?? entry.styledTitle ?? null %}
+{% set text = text ?? entry.richtextSimple ?? null %}
+
+{% block content %}
+    {% include '_components/hero' %}
+    {% include '_components/contentMatrix' %}
+{% endblock %}

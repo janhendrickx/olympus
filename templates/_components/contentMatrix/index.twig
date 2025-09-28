@@ -1,0 +1,3 @@
+{% for block in entry.contentMatrix %}
+    {% include '_components/contentMatrix/' ~ block.type.handle|slice(8) ~ '/index.twig' %}
+{% endfor %}

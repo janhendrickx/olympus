@@ -1,0 +1,15 @@
+// Set section padding
+section,
+.section {
+    padding-block: 3rem;
+    @include media-breakpoint-up(lg) {
+        padding-block: 6rem;
+    }
+}
+
+.block {
+    padding-top: 1.5rem;
+    @include media-breakpoint-up(lg) {
+        padding-top: 3rem;
+    }
+}

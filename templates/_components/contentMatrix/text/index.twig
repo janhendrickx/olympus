@@ -1,0 +1,33 @@
+{% import '_macros/_format' as format %}
+
+{#- ------------------------ -#}
+{#- ------------------------ -#}
+{#-
+    Component
+    Call To Action
+-#}
+{#- ------------------------ -#}
+{#- ------------------------ -#}
+
+{#- ---------------- -#}
+{#- Define Variables -#}
+{#- ---------------- -#}
+{%- set title = block.title ?? null -%}
+{%- set text = block.text ?? null -%}
+
+{#- ----------------- -#}
+{#- Component Display -#}
+{#- ----------------- -#}
+
+{%- if title or text -%}
+    <div class="block text">
+        <div class="container">
+            <div class="text-inner">
+                {%- if title -%}
+                    <h2>{{- format.title(title) -}}</h2>
+                {%- endif -%}
+                <div>{{ text }}</div>
+            </div>   
+        </div>
+    </div>
+{%- endif -%}

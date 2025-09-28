@@ -4,10 +4,35 @@
 // $primary:       #E9F8FE;
 $primary:     #07486C;
 $secondary:     #279BDB;
+$tertiary: #0A6FA7;
+
+$warning: #ffc107;
+$danger: #e5271c;
+$light: #fafafa;
 $dark: #00304F;
+
+$theme-colors: (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "tertiary":   $tertiary,
+    "success":    $success,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+);
+
 
 // Body
 $body-color: $dark;
+
+// Grid containers
+$container-max-widths: (
+    // Ref. https://ishadeed.com/article/responsive-design/#the-fixed-width-breakpoints-mindset
+    // Removing the max-width for smaller viewports, results in
+    // the container taking the full viewport width
+    xl: 862px
+);
 
 // Typography
 
@@ -34,10 +59,10 @@ $headings-font-weight: $font-weight-bolder;
 
 
 $nav-link-font-size:                .9375rem;
-$nav-link-color:                    $secondary;
+$nav-link-color:                    $tertiary;
 $nav-link-hover-color:              $primary;
 
-$navbar-light-color: $secondary;
+$navbar-light-color: $tertiary;
 $navbar-light-hover-color: $primary;
 $navbar-light-active-color: $primary;
 $navbar-light-brand-color: $primary;

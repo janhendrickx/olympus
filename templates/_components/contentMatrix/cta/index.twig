@@ -1,0 +1,47 @@
+{% import '_macros/_format' as format %}
+
+{#- ------------------------ -#}
+{#- ------------------------ -#}
+{#-
+    Component
+    Call To Action
+-#}
+{#- ------------------------ -#}
+{#- ------------------------ -#}
+
+{#- ---------------- -#}
+{#- Define Variables -#}
+{#- ---------------- -#}
+{%- set variant = block.variant.value ?? null -%}
+{%- set cta = block.callToAction.one() ??  null -%}
+{%- set ctaLink = cta.linkedPage.one() ?? null -%}
+{%- set ctaImage = cta.image.one() ?? null -%}
+
+{#- ----------------- -#}
+{#- Component Display -#}
+{#- ----------------- -#}
+{%- if cta -%}
+<div class="cta {{ variant }}">
+    <div class="cta-inner d-flex justify-content-between">
+        <div class="cta-inner-content pt-5">
+            {% if cta.singleLine %}
+                <span class="brow text-secondary">{{ cta.singleLine }}</span>
+            {% endif %}
+            {% if cta.title %}
+                <h2>{{ cta.title }}</h2>
+            {% endif %}
+            {% if cta.text %}
+                {{ cta.text }}
+            {% endif %}
+            {% if ctaLink %}
+                <a class="btn btn-tertiary" href={{ ctaLink.url }}>{{ ctaLink.title }}</a>
+            {% endif %}
+        </div>
+        <div class="cta-inner-image">
+            {% if ctaImage %}
+                <img src="{{ ctaImage.getUrl({ width: 468 }) }}" alt="{{ cta.title }}">
+            {% endif %}
+        </div>
+    </div>
+</div>
+{%- endif -%}

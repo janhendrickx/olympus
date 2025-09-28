@@ -5,5 +5,11 @@
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 
 // Custom styling
+@import "_custom/body.scss";
+@import "_custom/color-background.scss";
+@import "_custom/cta.scss";
 @import "_custom/fonts.scss";
+@import "_custom/hero.scss";
+@import "_custom/section.scss";
+@import "_custom/spacing.scss";
 @import "_custom/typography.scss";
