@@ -1,4 +1,4 @@
-dateModified: 1758991195
+dateModified: 1759074923
 elementSources:
   craft\elements\Entry:
     -
@@ -103,7 +103,7 @@ fs:
     settings:
       path: '@webroot/uploads'
     type: craft\fs\Local
-    url: $PRIMARY_SITE_URL/uploads
+    url: '@baseUrl/uploads'
 meta:
   __names__:
     0b2346f1-7a54-4b8f-b1b1-a4f189c53229: Content # Content
@@ -119,6 +119,7 @@ meta:
     8b942b91-d2dc-4596-b45b-d8667f578938: Titel # Titel
     10f6121b-68bb-41ab-b18c-e1b4258fe36a: Video # Video
     11b249e1-d9a7-4d9d-8905-9640fe34a5b3: Navigatie # Navigatie
+    13a1bb65-04b8-4072-bb27-2522bb7fff81: Quote # Quote
     42a254dc-5329-47e6-9278-c5337227e26b: 'Call to action' # Call to action
     43ab3c7c-5164-44f2-a49b-2398d5e4587d: Standaard # Standaard
     70d121eb-16ae-4cca-bf18-f0674a613c93: 'Onderste items' # Onderste items
@@ -133,6 +134,7 @@ meta:
     5935ed7a-cca4-4e3e-9309-1751e05f9cb9: Simple # Simple
     9421c7e5-6a93-47df-af87-adb403c189cf: Navigatie # Navigatie
     9664a544-faa7-495b-a078-abe6ffbc7468: Tekst # Tekst
+    219098b6-6605-4512-98e4-b9a887ccc2f6: Quote # Quote
     599631fe-c456-4837-bf32-78bc741e54c4: 'Call to action' # Call to action
     794337dc-7ad8-48ef-abc7-39513c7453d0: E-books # E-books
     a9c40264-851c-47ff-ada9-c44c98cade51: PDFs # PDFs
@@ -142,7 +144,7 @@ meta:
     b65f44d2-fd45-47ba-a7a8-6b80123e60c4: 'Label met icon' # Label met icon
     bf4ddf64-2493-4ac4-bfef-cc46b3c6c0d9: 'Call to action' # Call to action
     c50ebffd-36f0-4205-980e-46ad2e36b82d: 'Onderste items' # Onderste items
-    cf44a918-b9e7-4871-976d-f35192437ce2: Quote # Quote
+    cf44a918-b9e7-4871-976d-f35192437ce2: Tekst # Tekst
     d4d7958d-d66b-4e4c-b9cf-6ef05019819d: Iconen # Iconen
     d2346b25-9153-496d-8469-f69e0cd97f2d: Tekst # Tekst
     da1874f5-7484-4ecf-9070-7305334a0d3f: Tekst # Tekst

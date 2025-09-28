@@ -47,7 +47,7 @@ fieldLayouts:
         name: Inhoud
         uid: 46cece1e-b993-4bcd-9529-68bd778f9275
         userCondition: null
-handle: cTaSelector
+handle: content_cta
 hasTitleField: false
 icon: null
 name: 'Call to action'

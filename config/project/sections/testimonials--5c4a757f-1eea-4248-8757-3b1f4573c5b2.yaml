@@ -2,7 +2,7 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 6c31802d-fa2a-4d5c-86e3-a1d397bbc1d6 # Pagina
+    uid: 219098b6-6605-4512-98e4-b9a887ccc2f6 # Quote
 handle: testimonials
 maxAuthors: 1
 name: Klantenervaringen

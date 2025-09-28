@@ -41,7 +41,7 @@ fieldLayouts:
             dateAdded: '2025-09-27T07:18:22+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: cf44a918-b9e7-4871-976d-f35192437ce2 # Quote
+            fieldUid: cf44a918-b9e7-4871-976d-f35192437ce2 # Tekst
             handle: null
             includeInCards: false
             instructions: null
@@ -57,7 +57,7 @@ fieldLayouts:
         name: Inhoud
         uid: 5586a323-b6f6-432b-a346-36b663f8ba3b
         userCondition: null
-handle: text
+handle: content_text
 hasTitleField: true
 icon: null
 name: Tekst

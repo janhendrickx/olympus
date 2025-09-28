@@ -62,7 +62,7 @@ fieldLayouts:
             handle: null
             includeInCards: false
             instructions: null
-            label: Quote
+            label: Tekst
             providesThumbs: false
             required: false
             tip: null

@@ -1,7 +1,7 @@
 color: null
 description: null
 fieldLayouts:
-  afd6e673-3bd6-4b6f-a2e6-368cda893ca3:
+  b07dd58b-5310-4bb4-9855-ba742ad947d2:
     cardThumbAlignment: end
     tabs:
       -
@@ -12,7 +12,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-09-27T07:23:47+00:00'
+            dateAdded: '2025-09-28T15:52:38+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -33,15 +33,32 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: c562b175-eabd-4178-8c9a-aaf7510c1206
+            uid: 979b6c41-d5b1-4e88-b92a-5aa63f872b3c
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-09-27T07:26:08+00:00'
+            dateAdded: '2025-09-28T15:54:06+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 10f6121b-68bb-41ab-b18c-e1b4258fe36a # Video
+            fieldUid: 9664a544-faa7-495b-a078-abe6ffbc7468 # Tekst
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Quote
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ce3f3cc6-aa6e-4ce5-8c96-ebd55246cec2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-28T15:54:06+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 76b5189a-02d7-47a4-87b8-108f7e88d0a0 # Afbeelding
             handle: null
             includeInCards: false
             instructions: null
@@ -50,17 +67,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2cda1e2d-5709-45d3-9b63-cb3c5592d8c4
+            uid: ffe261a5-af34-4d22-91e4-b6e7e77bdc2f
             userCondition: null
             warning: null
             width: 100
         name: Inhoud
-        uid: c316f4c0-6cef-4796-a22d-ed91084ba5b7
+        uid: ada96ad3-8cd1-4d1a-97d3-5d8859132512
         userCondition: null
-handle: video
+handle: quote
 hasTitleField: true
 icon: null
-name: Video
+name: Quote
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

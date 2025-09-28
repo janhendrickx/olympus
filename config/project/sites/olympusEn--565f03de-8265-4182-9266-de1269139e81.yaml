@@ -1,4 +1,4 @@
-baseUrl: $OLYMPUS_EN_URL/en
+baseUrl: '@baseUrl/en'
 enabled: '1'
 handle: olympusEn
 hasUrls: true
