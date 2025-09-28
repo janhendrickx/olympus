@@ -1,0 +1,33 @@
+{#
+    Format helpers
+    Usage:
+    {% import '_macros/_format' as format %}
+    ...
+    {{ format.title() }}
+    {{ format.simple() }}
+#}
+{%- macro title(input, stripLinks = false) %}
+    {%- set tagsToNotStrip = '<strong><em><sup><u><br>' -%}
+    {%- if not stripLinks -%}
+        {%- set tagsToNotStrip = tagsToNotStrip ~ '<a>' -%}
+    {%- endif -%}
+
+    {{- input|markdown|striptags(tagsToNotStrip)|trim|raw -}}
+{% endmacro -%}
+
+{%- macro simple(input, stripLinks = false) %}
+    {%- set tagsToNotStrip = '<strong><em><sup><u><br>' -%}
+    {%- if not stripLinks -%}
+        {%- set tagsToNotStrip = tagsToNotStrip ~ '<a>' -%}
+    {%- endif -%}
+
+    {#- Replace '</p>' with '<br><br>', replace '<p>' with '' -#}
+    {%- set replaceP = '<br><br>' -%}
+    {%- set input = input|replace({'</p>': replaceP, '<p>': ''}) -%}
+    {#- Remove trailing '<br><br>' if there is one -#}
+    {%- if input|slice((input|length - replaceP|length), replaceP|length) == replaceP -%}
+        {%- set input = input|slice(0, input|length - replaceP|length) -%}
+    {%- endif -%}
+
+    {{- input|markdown|striptags(tagsToNotStrip)|trim|raw -}}
+{% endmacro -%}
